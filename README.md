@@ -1,6 +1,5 @@
 # webextension-window
 
-### Description
 Library for accessing document.window variable from content scripts with no deps.
 
 ### Installation
