@@ -1,0 +1,21 @@
+{
+  "name": "webextension-window",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "author": "Frolov Victor <winne4r@gmail.com>",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-sonarjs": "^0.2.0",
+    "eslint-plugin-unicorn": "^6.0.1",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-eslint": "^5.0.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-terser": "^3.0.0"
+  }
+}
